@@ -1,0 +1,12 @@
+{
+  "response": "Let me analyze this step by step:\n\n1. Key sentiment words: The text contains words like hate which indicate negative sentiment.\n2. Overall tone: The tone is clearly negative.\n3. Final sentiment: negative\n\nFinal answer: negative",
+  "cached": false,
+  "latency_ms": 328,
+  "usage": {
+    "prompt_tokens": 125,
+    "completion_tokens": 61,
+    "total_tokens": 186
+  },
+  "model": "gpt-3.5-turbo",
+  "seed": 42
+}
