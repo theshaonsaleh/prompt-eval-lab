@@ -1,0 +1,12 @@
+{
+  "response": "Let me analyze this step by step:\n\n1. Key sentiment words: The text contains words like love which indicate positive sentiment.\n2. Overall tone: The tone is clearly positive.\n3. Final sentiment: positive\n\nFinal answer: positive",
+  "cached": false,
+  "latency_ms": 373,
+  "usage": {
+    "prompt_tokens": 126,
+    "completion_tokens": 62,
+    "total_tokens": 188
+  },
+  "model": "gpt-3.5-turbo",
+  "seed": 44
+}

@@ -1,0 +1,12 @@
+{
+  "response": "negative",
+  "cached": false,
+  "latency_ms": 164,
+  "usage": {
+    "prompt_tokens": 119,
+    "completion_tokens": 4,
+    "total_tokens": 123
+  },
+  "model": "gpt-3.5-turbo",
+  "seed": 43
+}
