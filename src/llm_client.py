@@ -27,7 +27,7 @@ class CachedLLMClient:
     
     def __init__(
         self,
-        cache_dir: str = "results/cache",
+        cache_dir: str = "results/mock_cache",
         offline_mode: bool = False,
         api_key: Optional[str] = None,
         base_url: Optional[str] = None,

@@ -57,5 +57,5 @@ for strategy, data in results.items():
     print(f"  Total tokens: {metrics['total_tokens']:,}")
 
 print()
-print("Cached responses saved to results/cache/")
+print("Cached responses saved to results/mock_cache/")
 print("The notebook can now run in offline mode using these cached responses.")

@@ -12,7 +12,7 @@ from src.dataset import get_dataset, get_few_shot_examples
 from src.prompts import get_strategy
 
 # Create cache directory
-cache_dir = Path("results/cache")
+cache_dir = Path("results/mock_cache")
 cache_dir.mkdir(parents=True, exist_ok=True)
 
 # Get dataset
