@@ -36,20 +36,22 @@ This project compares four prompting approaches:
 
 ## Results
 
-Based on evaluation with `gpt-3.5-turbo` (cached results in `results/cache/`):
+Based on evaluation with simulated `gpt-3.5-turbo` responses (1,200 cached examples in `results/cache/`):
 
-| Strategy | Accuracy | Consistency | Parse Rate | Mean Latency (ms) | Total Tokens |
-|----------|----------|-------------|------------|-------------------|--------------|
-| Zero Shot | 0.850 | 1.000 | 1.000 | 200 | 15,450 |
-| Few Shot | 0.880 | 0.990 | 1.000 | 215 | 18,300 |
-| Chain Of Thought | 0.830 | 0.970 | 1.000 | 350 | 21,750 |
-| Structured Json | 0.810 | 0.980 | 1.000 | 210 | 16,200 |
+| Strategy | Accuracy | Consistency | Parse Rate |
+|----------|----------|-------------|------------|
+| Zero Shot | 0.870 | 0.570 | 1.000 |
+| Few Shot | 0.880 | 0.680 | 1.000 |
+| Chain Of Thought | 0.810 | 0.520 | 1.000 |
+| Structured Json | 0.800 | 0.500 | 1.000 |
 
 **Key findings:**
 1. Few-shot prompting achieved highest accuracy (88%)
-2. Zero-shot showed perfect consistency (100%) across seeds
-3. Chain-of-thought used ~40% more tokens than zero-shot
-4. All strategies successfully parsed in this evaluation
+2. All strategies successfully parsed responses (100% parse rate)
+3. Consistency scores show meaningful variation across strategies (52-68%)
+4. Zero-shot provides good accuracy-simplicity trade-off (87% accuracy)
+
+**Note**: These results use mock cached responses for demonstration. Real API results may vary.
 
 ## Threats to Validity
 
